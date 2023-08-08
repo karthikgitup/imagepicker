@@ -97,7 +97,7 @@ function selectCategory(categorys) {
         <div class="row justify-content-between g-3 ">
             ${filteredProducts.map(product  => `
                 <div class="col">
-                    <div class="card  " style="width: 200px;">
+                    <div class="card  " style="width: 100%;">
                         <img    id="cardimg"src=${product.Imgsrc} class="card-img-top cardimg mx-auto" alt="...">
                     </div>
                 </div>
